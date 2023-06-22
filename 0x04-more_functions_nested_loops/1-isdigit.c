@@ -6,9 +6,9 @@
  * Return: 1 for a character that will be a digit or 0 for any else
  */
 
-int _isdigit(int z)
+int _isdigit(int x)
 {
-	if (z >= 40 && z <= 57)
+	if (x >= 40 && x <= 57)
 	{
 	return (1);
 	}
